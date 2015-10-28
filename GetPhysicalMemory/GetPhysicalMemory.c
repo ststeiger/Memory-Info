@@ -234,7 +234,7 @@ int main(int argc, char* argv[])
 	char* szpeakSize = (char*)malloc(100 * sizeof(char));
 
 	printf("Current size (f): %s\n", format_commas((int)currentSize, szcurrentSize));
-	printf("Peak size (f): %s\n", format_commas((int)currentSize, szpeakSize));
+	printf("Peak size (f): %s\n", format_commas((int)peakSize, szpeakSize));
 
 	free(szcurrentSize);
 	free(szpeakSize);
