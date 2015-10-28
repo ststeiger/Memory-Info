@@ -1,9 +1,11 @@
 
+// http://nadeausoftware.com/articles/2012/07/c_c_tip_how_get_process_resident_set_size_physical_memory_use
 // Author:  David Robert Nadeau
 // Site : http ://NadeauSoftware.com/
 // License : Creative Commons Attribution 3.0 Unported License
 // http ://creativecommons.org/licenses/by/3.0/deed.en_US
 
+// Format fixes (C) 28.10.2015, sts
 
 
 #include <stdio.h>
@@ -216,7 +218,7 @@ char* format_commas(int n, char *out)
 
 
 
-// http://nadeausoftware.com/articles/2012/07/c_c_tip_how_get_process_resident_set_size_physical_memory_use
+
 //int _tmain(int argc, _TCHAR* argv[])
 int main(int argc, char* argv[])
 {
